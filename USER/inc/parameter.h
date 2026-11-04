@@ -133,25 +133,25 @@
 #define IBus_Avg_REC_MS               (200) //ms
 #define IBus_Avg_REC_MS_CONUT         (u16)((float)IBus_Avg_REC_MS*SLOWLOOP_FRE/1000.0f) 
 
-#define IBus_Avg_OCP1                (65.0f)
+#define IBus_Avg_OCP1                (55.0f)
 #define IBus_Avg_OCP1_AdcValue         (u16)(IBus_Avg_OCP1*CURRENT_ADC_PER_A)
 
 #define IBus_Avg_OCP1_MS               (2000) //ms
 #define IBus_Avg_OCP1_MS_CONUT         (u16)((float)IBus_Avg_OCP1_MS*SLOWLOOP_FRE/1000.0f) 
 	
-#define IBus_Avg_OCP2                 (80.0f)
+#define IBus_Avg_OCP2                 (70.0f)
 #define IBus_Avg_OCP2_AdcValue         (u16)(IBus_Avg_OCP2*CURRENT_ADC_PER_A)
 
 #define IBus_Avg_OCP2_MS               (500) //ms
 #define IBus_Avg_OCP2_MS_CONUT        (u16)((float)IBus_Avg_OCP2_MS*SLOWLOOP_FRE/1000.0f) 
 
-#define IBus_Avg_OCP3                  (90.0f)
+#define IBus_Avg_OCP3                  (80.0f)
 #define IBus_Avg_OCP3_AdcValue         (u16)(IBus_Avg_OCP3*CURRENT_ADC_PER_A)
 
 #define IBus_Avg_OCP3_MS               (80) //ms
 #define IBus_Avg_OCP3_MS_CONUT        (u16)((float)IBus_Avg_OCP3_MS*SLOWLOOP_FRE/1000.0f)
 
-#define IBus_Avg_OCP4                  (100.0f)
+#define IBus_Avg_OCP4                  (90.0f)
 #define IBus_Avg_OCP4_AdcValue         (u16)(IBus_Avg_OCP4*CURRENT_ADC_PER_A)
 
 #define IBus_Avg_OCP4_MS               (5) //ms
